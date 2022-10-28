@@ -30,8 +30,8 @@
 	<link rel="stylesheet" href="assets/css/woocommerce.css" type="text/css">
 	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
 	<link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-default.css" type="text/css">
-
-
+	<!-- Font -->
+	<link rel="stylesheet" href="/assets/fonts/BeVietnamPro-Black.ttf">
 
 
 </head>
@@ -40,6 +40,8 @@
 
 	<div class="loader loader-bar-ping-pong is-active"></div>
 	<div id="site">
+		<div class="mainbg"><img src="/assets/img/NỀN-WEB.jpg" alt="background"></div>
+		
 
 
 		<!-- <div class="Switcher">
@@ -188,6 +190,9 @@
 										<li><a href="contact.html">Contact</a></li>
 									</ul> -->
 								</li>
+								<li class="menu-item-has-children ">
+									<a href="index.html">Timeline </a>
+								</li>
 								<li class="menu-item-has-children">
 									<a href="tabs.html">Memories</a>
 									<!-- <ul class="sub-menu">
@@ -196,7 +201,7 @@
 									</ul> -->
 								</li>
 								<li class="menu-item-has-children">
-									<a href="blog-list-right.html">Contact.</a>
+									<a href="blog-list-right.html">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -253,10 +258,11 @@
 		<!--=============================-->
 		<!--=        Mobile Nav         =-->
 		<!--=============================-->
+	<div class="wrap">	
 		<header id="mobile-nav-wrap">
 			<div class="mob-header-inner d-flex justify-content-between">
 				<div id="mobile-logo" class="d-flex justify-content-start">
-					<a href="##"><img src="assets/img/LOGO FTALENT.png" alt="Site Logo" class="logomobile"></a>
+					<img src="assets/img/LOGO FTALENT.png" alt="Site Logo" class="logomobile">
 				</div>
 				<a href="#newmenu">
 					<div id="nav-toggle" class="nav-toggle hidden-md">
@@ -271,16 +277,17 @@
 			</div>
 			<!-- /.mob-header-inner -->
 		</header>
+	</div>
 		<!-- /#mobile-header -->
 
-		<div id="newmenu" class="mobile-menu-inner">
+		<div id="newmenu" name="newmenu" class="mobile-menu-inner">
 
 			<div class="mobile-nav-top-wrap">
 				<div class="mob-header-inner clearfix">
 					<div class="d-flex justify-content-start mobile-logo">
-						<a href="index.html">
-					<img src="assets/img/logo-dark.png" alt="Site Logo">
-				</a>
+						<!-- <a href="index.html">
+					<img src="assets/img/LOGO FTALENT.png" alt="Site Logo">
+				</a> -->
 					</div>
 
 					<div class="close-menu">
@@ -301,53 +308,22 @@
 				<ul class="accordion-menu">
 					<li>
 						<a href="#0" class="dropdownlink">Home</a>
-						<ul class="submenuItems">
-							<li><a href="index.html">Home One</a></li>
-							<li><a href="index-two.html">Home Two</a></li>
-							<li><a href="index-three.html">Home Three</a></li>
-							<li><a href="index-four.html">Home Four</a></li>
-						</ul>
+					</li>
+					<li>
+						<a href="#0" class="dropdownlink">About</a>
 					</li>
 					<li>
 						<a href="#0" class="dropdownlink">Artist</a>
-						<ul class="submenuItems">
-							<li><a href="artist.html">Artist</a></li>
-							<li><a href="artist-single.html">Artist Details</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="album.html">Album</a>
 					</li>
 					<li>
 						<a href="#0" class="dropdownlink">Events</a>
-						<ul class="submenuItems">
-							<li><a href="event.html">Events</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
 					</li>
 					<li>
-						<a href="tabs.html">Tabs</a>
-
+						<a href="#0" class="dropdownlink">Memories</a>
 					</li>
 					<li>
-						<a href="#0" class="dropdownlink">Blog</a>
-						<ul class="submenuItems">
-							<li><a href="blog-list-right.html">Blog Standard</a></li>
-							<li><a href="blog-grid-right.html">Blog Grid</a></li>
-							<li><a href="blog-single.html">Blog Single</a></li>
-						</ul>
-					</li>
-
-					<li>
-						<a href="gallery.html">Gallery</a>
-					</li>
-					<li>
-						<a href="#0" class="dropdownlink">Shop</a>
-						<ul class="submenuItems">
-							<li><a href="shop-right.html">Shop Right</a></li>
-							<li><a href="shop-left.html">Shop Left</a></li>
-							<li><a href="shop-single.html">Shop Details</a></li>
-						</ul>
+						<a href="#0" class="dropdownlink">Contact</a>
+						
 					</li>
 				</ul>
 			</nav>
@@ -360,27 +336,29 @@
 		<!--=        	Banner         =-->
 		<!--============================-->
 		<section class="banner-five">
+			<div style="background: linear-gradient(180deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), rgb(0, 0, 0 ,1));position: absolute;width: 100%;height: 100%;"></div>			
 			<img src="assets/img/final lan cuoi.png" alt="FTL" class="bgheader">
+
 			<div class="tim-container">	
 				<div id="para" class="paralax">
 					<div id="paralax-1" class="scene">
 						<div data-depth="-0.50"><img src="assets/img/F-TALENT 2022 FAVICON-glow.png" alt="chuyendong" class="movemove"></div>
 					</div>
 				</div>
-				<!-- <div class="baneer-five-content">
+				<div class="baneer-five-content">
 					<div class="content sp-container">
 						<div class="sp-content">
 							<div class="sp-globe"></div>
 							<h2 class="frame-1">F-TALENT</h2>
 							<h2 class="frame-2">2022</h2>
-							<h2 class="frame-3">FPTU HCM</h2>
+							<h2 class="frame-3">FPTU HCMU</h2>
 							<h2 class="frame-4">CÓC SÀI GÒN</h2>
 
 						</div>
-						<h3>F-TALENT - NOVEMBER 1, 2022</h3>
-						<a class="tim-slide-btn" href="#">TICKETS</a>
+						<!-- <h3>F-TALENT - NOVEMBER 1, 2022</h3>
+						<a class="tim-slide-btn" href="#">TICKETS</a> -->
 					</div>
-				</div> -->
+				</div>
 				<!-- /.tim-container -->
 			</div>
 			<!-- /.tim-container -->
@@ -391,70 +369,71 @@
 
 		</section>
 		<!-- /#page-header -->
-
-
-
-		<section class="header_player style-fullwidth">
-
-			<!-- Audio Player -->
-			<div class="player-container-fullwidth">
-
-				<!-- /.current-tracks -->
-				<div id="header_player" class="jp-audio" role="application" aria-label="media player">
-					<div class="jp-type-playlist clearfix">
-						<div class="jp-gui jp-interface">
-							<div class="jp-controls">
-								<button class="jp-play" tabindex="0"><i class="fa fa-play"></i></button>
-							</div>
-							<!-- Display the track inside player -->
-
-							<div class="current-tracks">
-								<div id="main_player" class="jp-jplayer">
+		<!--==============================-->
+		<!--=        	Latest release         =-->
+		<!--==============================-->
+		<!-- <section class="section-padding latest-relese">
+			<div class="container">
+				<div class="row">
+					<div class="section-title style-four">
+						<h2>Cuộc Thi Tìm Kiếm Tài Năng</h2>
+					</div>
+					<div class="d-flex justify-content-center">
+						<div class="col-xl-10" id="moving-player">
+							<div class="row">
+								<div class="col-sm-8 col-md-9 col-lg-8">
+									<div class="latest-album-left">
+										<div class="cover-img">
+											<img src="../../media/album/cover.jpg" alt="">
+										</div>
+										<div class="albun-details">
+											<h6 class="title">F-TALENT 2022 <br>BURN THE STAGE WITH YOUR TALENT</h6>
+											<p>Là cuộc thi tìm kiếm những tài năng, kết nối những nhân tố đặc biệt đến từ hàng nghìn Tân sinh viên K17 và K18 Đại học FPT TP.HCM.
+											</p>
+											<p>F-Talent 2022 đã chính thức quay trở lại mang theo sứ mệnh đốt cháy sân khấu bởi ngọn lửa tài năng của tất cả các bạn. Âm ỉ để chờ một ngày bừng sáng và đây chính là cơ hội để các bạn thi đua, cùng nhau sống với đam mê, với khát vọng của mình</p>
+										</div>
+									</div>
 
 								</div>
-								<div id="nowPlaying">
-									<h3 class="track-name"></h3>
-									<span class="artist-name"></span>
-								</div>
-								<!-- #nowPlaying -->
-							</div>
-							<!-- /.current-tracks -->
-
-							<div class="jp-progress">
-								<div class="jp-seek-bar">
-									<div class="jp-play-bar"></div>
-								</div>
-							</div>
-
-							<div class="jp-duration" role="timer" aria-label="duration"></div>
-
-							<div class="vel-wrap">
-								<button class="jp-mute" tabindex="0"><i class="fa fa-volume-up"></i></button>
-
-								<div class="jp-volume-bar">
-									<div class="jp-volume-bar-value"></div>
-								</div>
-
-							</div>
-							<!-- /.vel-wrap -->
-
-							<button id="playlist-toggle" class=""><i class="fa fa-list"></i></button>
-
-							<!-- Playlist -->
-							<div class="jp-playlist">
-								<ul>
-									<li></li>
-								</ul>
 							</div>
 						</div>
 					</div>
+				
+				</div>
+				
+			</div>
+			
+		</section> -->
+		<div class="homepage-info-section" id="aboutus">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-5">
+						<figure class="logoFTL_parent">
+							<img src="/assets/img/Ngôi sao bạc.png	" alt="logo" class="logoCCCC">
+						</figure>
+					</div>
+	
+					<div class="col-12 col-md-8 col-lg-7">
+						<header class="entry-header" style="
+						min-height: unset;
+					">
+							<h2 class="entry-title tlvh">Tuần Lễ Văn Hóa</h2>
+						</header>
+	
+						<div class="entry-content">
+							<p>“Đánh thức truyền thống hào sảng và thiêng liêng <br>Để ta dệt nên linh hồn của nhân loại”</p>
+							<p> Ắt hẳn đã có lúc chúng ta - những mầm non tương lai, những kiến trúc sư xây dựng nền văn hóa Việt, mải mê chạy theo phồn hoa hiện đại mà có phần quên đi cái xưa cũ ngày nào. Hiểu được điều này, Câu lạc bộ Truyền thông Cóc Sài Gòn
+								hân hạnh tổ chức chương trình Chi Chi Chành Chành 2022 với sứ mệnh mang văn hóa nghệ thuật truyền thống đến gần hơn với lớp trẻ thông qua chuỗi sự kiện vệ tinh thú vị.</p>
+						</div>
+	
+						<!-- <footer class="entry-footer">
+							<a href="https://www.facebook.com/cocsaigonfuhcm/posts/pfbid0295QimSgmTzHQPPcWTPJ9meKUqUuo7r8BPWJJRK9JHr3wK2gDsqPY5WCUtuwqnCSQl" class="btn gradient-bg">Thông tin chi tiết</a>
+						</footer> -->
+					</div>
 				</div>
 			</div>
-		</section>
-
-
-
-
+		</div>
+	
 
 		<!--==============================-->
 		<!--=        	Artist lineup         =-->
@@ -463,14 +442,14 @@
 			<div class="tim-container clearfix">
 				<div class="row">
 					<div class="section-title style-four">
-						<h2>ARTIST LINEUP</h2>
+						<h2>JUDGES LINEUP</h2>
 						<p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some injected humour.</p>
 					</div>
 				</div>
 				<div class="swiper-container row" data-swiper-config='{ "loop": true, "prevButton":".swiper-button-prev", "nextButton": ".swiper-button-next", "speed": 700, "autoplay": "5000", "slidesPerView": 6, "spaceBetween": 0, "grabCursor": true,"breakpoints": { "1300": { "slidesPerView": 4 }, "767": { "slidesPerView": 3 }, "500": { "slidesPerView": 1 }}}'>
 					<ul class="artist-line-wrapper swiper-wrapper">
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a1.jpg" alt="">
+							<img src="/assets/img/Bóng kín.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -482,7 +461,7 @@
 						</li>
 
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a2.jpg" alt="">
+							<img src="/assets/img/Bóng lộ.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -494,7 +473,7 @@
 						</li>
 
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a3.jpg" alt="">
+							<img src="/assets/img/Bóng kín.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -506,7 +485,7 @@
 						</li>
 
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a4.jpg" alt="">
+							<img src="/assets/img/Bóng lộ.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -517,19 +496,7 @@
 							</div>
 						</li>
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a1.jpg" alt="">
-							<div class="artist-single-content">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								</ul>
-								<h6>James Hetfield</h6>
-								<p>Band: Metallica</p>
-							</div>
-						</li>
-
-						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a2.jpg" alt="">
+							<img src="/assets/img/Bóng kín.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -541,7 +508,7 @@
 						</li>
 
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a3.jpg" alt="">
+							<img src="/assets/img/Bóng lộ.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -553,7 +520,19 @@
 						</li>
 
 						<li class="artist-single clearfix swiper-slide">
-							<img src="media/artist/a4.jpg" alt="">
+							<img src="/assets/img/Bóng kín.png" alt="">
+							<div class="artist-single-content">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								</ul>
+								<h6>James Hetfield</h6>
+								<p>Band: Metallica</p>
+							</div>
+						</li>
+
+						<li class="artist-single clearfix swiper-slide">
+							<img src="/assets/img/Bóng lộ.png" alt="">
 							<div class="artist-single-content">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -571,196 +550,6 @@
 			<!-- /.tim-container -->
 		</section>
 		<!-- /#about -->
-
-
-		<!--==============================-->
-		<!--=        	Latest release         =-->
-		<!--==============================-->
-		<section class="section-padding latest-relese">
-			<div class="container">
-				<div class="row">
-					<div class="section-title style-four">
-						<h2>LATEST RELEASE</h2>
-					</div>
-					<div class="d-flex justify-content-center">
-						<div class="col-xl-10" id="moving-player">
-							<div class="row">
-								<div class="col-sm-8 col-md-9 col-lg-8">
-									<div class="latest-album-left">
-										<div class="cover-img">
-											<img src="../../media/album/cover.jpg" alt="">
-										</div>
-										<div class="albun-details">
-											<h6>ALBUM INFO</h6>
-											<p>Most happening band Blood Chain recently has released their debut album called
-												<span>“HEAVEN”</span>. Officialy the album released on May 19, 2018 in Harmonik Studio, Venice. This <span>Alternative Rock</span> Band made 12 songs with total 36:20 minutes timeline.</p>
-											<p>The Lineup: Tony McAlpine (Guitars), Jhon Lennon (Vocal & Guitars), Mike Portnoy (Drums), Billy Shehan (Bass Guitars), Chester Krain (Keys).</p>
-										</div>
-									</div>
-
-								</div>
-								<div class="col-sm-4 col-md-3 col-lg-4">
-									<div class="latest-album-right">
-										<h6>LISTEN DEMO NOW</h6>
-										<div class="latest-album-btn">
-											<a href="media/audio/test.mp3" class="sm2_button"><i></i></a>
-										</div>
-
-									</div>
-								</div>
-								<div class="col-xl-12">
-									<div class="record-player">
-										<div class="player-main">
-											<img src="media/background/record.png" alt="">
-										</div>
-										<div class="player-main-shade">
-											<img src="media/background/record-shade.png" alt="">
-										</div>
-										<div class="record-key">
-											<img src="media/background/player-key.png" alt="">
-										</div>
-									</div>
-
-								</div>
-
-
-
-
-								<div class="bubble-wrap">
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-
-
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-3"></div>
-
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-
-								</div>
-
-								<div class="bubble-wrap-right">
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-
-
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-3"></div>
-
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-1"></div>
-
-									<div class="bubble icon-5"></div>
-
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-1"></div>
-
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-5"></div>
-									<div class="bubble icon-2 "></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-1"></div>
-									<div class="bubble icon-3"></div>
-									<div class="bubble icon-4"></div>
-									<div class="bubble icon-5"></div>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /.latest-album-info -->
-				</div>
-				<!-- /.row -->
-			</div>
-			<!-- /.tim-container -->
-		</section>
-		<!-- /#about -->
-
 
 
 		<!--==============================-->
@@ -842,70 +631,7 @@
 			<!-- /.tim-container -->
 		</section>
 		<!-- /#about -->
-
-
-
-		<!--==============================-->
-		<!--=        	Show schedule        =-->
-		<!--==============================-->
-		<section class="show-archive">
-			<div class="container">
-				<div class="d-flex justify-content-center row">
-					<div class="col-xl-10">
-						<div class="section-title style-five">
-							<h2>PREVIOUS SHOWS</h2>
-							<p>There are many variations of passages of Lorem Ipsum available but the majority.</p>
-						</div>
-						<div class="show-archive-wrapper row no-gutters">
-							<div class="offset-xs-0 offset-sm-4 col-sm-4 col-6">
-								<div class="single-show-archive">
-									<img src="media/album/18.jpg" alt="">
-									<a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-							</a>
-								</div>
-							</div>
-							<div class="col-6 col-sm-4">
-								<div class="single-show-archive">
-									<img src="media/album/19.jpg" alt="">
-									<a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-							</a>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<div class="single-show-archive video-archive">
-									<img src="media/album/20.jpg" alt="">
-									<div class="video-player">
-										<a href="https://www.youtube.com/watch?v=0I8GmbDU7c4" class="video-btn-three popup-video-btn">
-									<i class="fa fa-play"></i>
-								</a>
-										<div class="video-btn-shade">
-											<i class="fa fa-play"></i>
-										</div>
-										<div class="text">
-											<p>Show Stoppers Time</p>
-											<span>(Live in Tokyo, 2017)</span>
-										</div>
-
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-4">
-								<div class="single-show-archive">
-									<img src="media/album/21.jpg" alt="">
-									<a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-	</a>
-								</div>
-							</div>
-						</div>
-						<!-- /.row -->
-					</div>
-					<!-- /.col-xl -->
-				</div>
-				<!-- /.row -->
-			</div>
-		</section>
-		<!-- /#about -->
-
+		
 		<!--==============================-->
 		<!--=        	Show ticket        =-->
 		<!--==============================-->
@@ -914,19 +640,19 @@
 				<div class="d-flex justify-content-center row">
 					<div class="col-xl-10">
 						<div class="section-title style-four">
-							<h2>UPCOMING SHOWS</h2>
+							<h2>TIMELINE</h2>
 						</div>
 						<div class="single-show-ticket row no-guters">
 							<div class="col-sm-3 col-md-3 col-lg-3">
 								<div class="date-time">
-									<h6>15</h6>
-									<p>December, 2018</p>
+									<h6>12</h6>
+									<p>Tháng 11, 2022</p>
 								</div>
 
 							</div>
 							<div class="col-sm-6 col-md-6 col-lg-7">
-								<h5>Dream Theatre (Live in London)</h5>
-								<p>23 Lee Rd, Blackheath, London SE3 9RQ, UK</p>
+								<h5>Vòng Casting đợt 1</h5>
+								<p>Hội trường B, Đại học FPT TP.HCM</p>
 							</div>
 							<div class="col-sm-3 col-md-3 col-lg-2">
 								<div class="a_hover">
@@ -941,14 +667,14 @@
 						<div class="single-show-ticket row no-guters">
 							<div class="col-sm-3 col-md-3 col-lg-3">
 								<div class="date-time">
-									<h6>15</h6>
-									<p>January, 2018</p>
+									<h6>13</h6>
+									<p>Tháng 11, 2022</p>
 								</div>
 
 							</div>
 							<div class="col-sm-6 col-md-6 col-lg-7">
-								<h5>Maroon 5 - NEWBO EVOLVE FESTIVAL</h5>
-								<p>CEDAR RAPIDS, IA</p>
+								<h5>Vòng Casting đợt 2</h5>
+								<p>Hội trường B, Đại học FPT TP.HCM</p>
 							</div>
 							<div class="col-sm-3 col-md-3 col-lg-2">
 								<div class="a_hover">
@@ -963,13 +689,13 @@
 						<div class="single-show-ticket row no-guters">
 							<div class="col-sm-3 col-md-3 col-lg-3">
 								<div class="date-time">
-									<h6>11</h6>
-									<p>July, 2018</p>
+									<h6>26</h6>
+									<p>Tháng 11, 2022</p>
 								</div>
 							</div>
 							<div class="col-sm-6 col-md-6 col-lg-7">
-								<h5>Red Hot Chilli Peppers</h5>
-								<p>PARQUE FUNDIDORA, MONTERRY, MEXICO</p>
+								<h5>Vòng Bán kết</h5>
+								<p>Hội trường B, Đại học FPT TP.HCM</p>
 							</div>
 							<div class="col-sm-3 col-md-3 col-lg-2">
 								<div class="a_hover">
@@ -984,34 +710,13 @@
 							<div class="col-sm-3 col-md-3 col-lg-3">
 								<div class="date-time">
 									<h6>10</h6>
-									<p>January, 2018</p>
+									<p>Tháng 12, 2022</p>
 								</div>
 
 							</div>
 							<div class="col-sm-6 col-md-6 col-lg-7">
-								<h5>SYMPHONY X</h5>
-								<p>UNITED CENTER, CHICAGO, IL</p>
-							</div>
-							<div class="col-sm-3 col-md-3 col-lg-2">
-								<div class="a_hover">
-									<a href="#">TICKETS</a>
-									<img class="svg" src="media/background/round_black.svg" alt="">
-									<img class="svg" src="media/background/round.svg" alt="">
-									<i class="fa fa-play" aria-hidden="true"></i>
-								</div>
-							</div>
-						</div>
-
-						<div class="single-show-ticket row no-guters">
-							<div class="col-sm-3 col-md-3 col-lg-3">
-								<div class="date-time">
-									<h6>27</h6>
-									<p>November, 2018</p>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-6 col-lg-7">
-								<h5>NIRVANA</h5>
-								<p>BRIDGESTONE ARENA, NASHVILLE, TN</p>
+								<h5>Vòng Chung kết</h5>
+								<p>Sân trường Đại học FPT TP.HCM</p>
 							</div>
 							<div class="col-sm-3 col-md-3 col-lg-2">
 								<div class="a_hover">
@@ -1085,73 +790,6 @@
 			<!-- /.container -->
 		</section>
 		<!-- /#about -->
-
-
-
-		<!--======================================-->
-		<!--=        	Store        	         =-->
-		<!--======================================-->
-		<section class="section-padding-two brand-shoparea">
-			<div class="container">
-				<div class="d-flex justify-content-center row">
-					<div class="col-xl-10">
-						<div class="row">
-							<div class="grid-40">
-								<div class="section-title style-six">
-									<h2>BRAND SHOP</h2>
-								</div>
-								<div class="brand-shop-carousel">
-									<div class="swiper-container row" data-swiper-config='{ "loop": true, "paginationClickable" :true, "autoplay": 5000, "pagination": "store-pagination", "speed": 700, "effect": "slide", "slidesPerView": 1, "spaceBetween": 0, "grabCursor": true,"breakpoints": { "1300": { "slidesPerView": 1 }, "767": { "slidesPerView": 1 }, "500": { "slidesPerView": 1 }}}'>
-										<ul class="product-five swiper-wrapper">
-											<li class="product-single clearfix swiper-slide">
-												<img src="media/product/51.jpg" alt="">
-											</li>
-
-											<li class="product-single clearfix swiper-slide">
-												<img src="media/product/52.jpg" alt="">
-											</li>
-
-											<li class="product-single clearfix swiper-slide">
-												<img src="media/product/53.jpg" alt="">
-											</li>
-										</ul>
-										<div id="store-pagination" class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-											<span class="swiper-pagination-bullet"></span>
-											<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-											<span class="swiper-pagination-bullet"></span>
-										</div>
-									</div>
-								</div>
-								<!-- /.brand-shop-carousel -->
-							</div>
-							<!-- /.col-xl-4 -->
-							<div class="grid-60">
-								<div class="section-title style-six">
-									<h2>STORIES</h2>
-								</div>
-								<div class="soundcloud-wrapper">
-
-									<iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/473962047&color=%23d6d6d6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-									<h6>I am a blog post with an embeded soundcloud player. You can share a musician’s story here.</h6>
-									<footer>
-										<a href="#">READ THIS STORY<i class="fa fa-play"></i></a>
-										<p><span>Hits</span>- 12742</p>
-									</footer>
-								</div>
-							</div>
-							<!-- /.col-xl-8 -->
-						</div>
-						<!-- /.row -->
-					</div>
-					<!-- /.col-xl- -->
-				</div>
-				<!-- /.row -->
-			</div>
-			<!-- /.container -->
-		</section>
-		<!-- /#about -->
-
-
 		<!--======================================-->
 		<!--=        	Partners        	         =-->
 		<!--======================================-->
