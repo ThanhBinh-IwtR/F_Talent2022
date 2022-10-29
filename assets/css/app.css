@@ -150,7 +150,7 @@ img {
   position: relative;
   overflow: hidden;
   /* background-color: rgb(92, 46, 46); */
-  background: url(./assets/img/NỀN-WEB.jpg);
+  background-image: url(../../assets/img/bgweb.jpg);
   
 }
 
