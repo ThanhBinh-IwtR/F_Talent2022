@@ -21900,9 +21900,9 @@ ul.products li.product-two .ajax_add_to_cart i {
 
 .artist-single:before {
   content: "";
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#f60038));
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #f60038 100%);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f60038 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#E13919));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #E13919 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E13919 100%);
   position: absolute;
   left: 0;
   top: 27px;
