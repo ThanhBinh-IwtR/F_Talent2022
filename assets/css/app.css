@@ -215,7 +215,7 @@ img {
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Changa", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .section-title h2 {
@@ -21966,7 +21966,7 @@ ul.products li.product-two .ajax_add_to_cart i {
 
 .artist-single .artist-single-content h6 {
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 20px;
   -webkit-transform: translate3d(0, 40px, 0);
@@ -21979,10 +21979,11 @@ ul.products li.product-two .ajax_add_to_cart i {
      transition-duration: 0.25s;
   transition-opacity: 0.15s;
   opacity: 0;
+  font-family: bevn;
 }
 
 .artist-single .artist-single-content p {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #fff;
   line-height: 14px;
@@ -21995,6 +21996,7 @@ ul.products li.product-two .ajax_add_to_cart i {
   -o-transition-duration: 0.35s;
      transition-duration: 0.35s;
   opacity: 0;
+  line-height: 1rem;
 }
 
 .artist-single .artist-single-content span {
