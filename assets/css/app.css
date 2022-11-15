@@ -322,6 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-title.style-four p {
   padding: 0px 28%;
   font-size: 18px;
+  color: white;
 }
 
 .section-title.style-five {
