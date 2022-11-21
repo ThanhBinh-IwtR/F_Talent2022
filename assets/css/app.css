@@ -23684,16 +23684,6 @@ color: #E13919;
   .contact-section.alternate{
 		padding: 70px 0;
 	}
-
-  .contact-section .info-box li {
-    position: relative;
-    display: inline-block;
-    margin: 0 5px 3px;
-    padding-left: 60px;
-    padding-top: 9px;
-    font-size: 18px;
-    line-height: 40px;
-}
 }
 
 .footer-bottom {
